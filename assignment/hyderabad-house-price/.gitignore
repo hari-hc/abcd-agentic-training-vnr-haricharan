@@ -1,0 +1,59 @@
+# ─── Python ──────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+*.cover
+
+# ─── Environment ─────────────────────────────
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ─── ML Artifacts ────────────────────────────
+# (comment these out if you want to commit the trained model)
+# ml/artifacts/model.pkl
+# ml/artifacts/locations.pkl
+
+# ─── Node / React ────────────────────────────
+node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Logs ────────────────────────────────────
+*.log
+logs/
+log/
+
+# ─── OS & Editor ─────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ─── Data ────────────────────────────────────
+# (uncomment if you don't want to commit the raw CSV)
+# ml/Hyderbad_House_price.csv
